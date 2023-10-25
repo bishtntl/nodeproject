@@ -1,0 +1,4852 @@
+.route {
+    color: black;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: rotate(180deg);
+    /* border: 2px solid black; */
+
+
+    position: relative;
+    left: 45vw
+}
+
+.siren {
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 45vw;
+}
+
+.number {
+    font-size: 1.5em;
+    color: grey;
+    position: relative;
+    /* left: 25vh; */
+    /* width: 8vw; */
+    top: 1vw;
+
+    /* border: 2px solid black; */
+}
+
+.homeimage {
+
+    height: 25vh;
+    width: 25vw;
+}
+
+
+.headinggs {
+    border: 10px solid rgb(214, 45, 45);
+    height: 20px;
+    font-size: 2em;
+    background-color: aqua;
+
+
+}
+
+.heading {
+    font-size: 2em;
+    margin: auto;
+}
+
+.box {
+    width: 80vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 40px;
+    background-image: linear-gradient(white, rgba(0, 0, 0, 0.436));
+
+}
+
+.navlink {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.imageone {
+    height: 30vh;
+    width: 20vw;
+    /* display: inline-block; */
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+.datatwo {
+    /* border: 2px solid red; */
+    border-bottom: 5px solid wheat;
+    width: 50vw;
+    height: 35vh;
+    position: relative;
+}
+
+.top {
+
+    top: 40px;
+    gap: 10px;
+    margin-top: 5vh;
+
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+
+}
+
+.imagetopone {
+
+    height: 37vh;
+    width: 35vw;
+    border-radius: 20px;
+
+}
+
+.midtop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imagetoptwo {
+
+    height: 77vh;
+    width: 52vw;
+    border-radius: 20px;
+
+
+}
+
+.imagetopthree {
+
+    height: 37vh;
+    width: 35vw;
+    border-radius: 20px;
+
+}
+
+.secondtop {
+    display: flex;
+    justify-content: space-around;
+    height: 65vh;
+
+    /* border: 2px solid black; */
+}
+
+.underdivfirst {
+    /* border: 5px solid black; */
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.underdivfirst:hover {
+
+    box-shadow: 2px 2px 20px black;
+}
+
+.parahome {
+    width: 25vw;
+    font-size: 1.3em;
+    position: relative;
+    left: 2vw;
+}
+
+
+.thirdtop {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.latest {
+    position: relative;
+    left: 40px;
+    top: 0vh;
+    width: 400px;
+    font-size: 3em;
+}
+
+.paraone {
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 25vw;
+    height: 20vh;
+    position: relative;
+    left: 22vw;
+    top: 10vh;
+    overflow: hidden;
+}
+
+.headingone {
+    display: inline-block;
+    /* border: 2px solid black; */
+    font-size: 1.5em;
+    position: absolute;
+    left: 22vw;
+    font-weight: bold;
+    top: 5vh;
+}
+
+.topstories {
+    width: 50vw;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 10px;
+
+
+}
+
+.advisment {
+    border: 2px solid black;
+    height: 95vh;
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+}
+
+.data {
+    /* border: 2px solid red; */
+    position: relative;
+    height: 30vh;
+    /* border: 2px solid black; */
+    border-bottom: 5px solid whitesmoke;
+}
+
+.imagetwo {
+    position: absolute;
+    left: 0;
+    top: 2vh;
+    height: 20vh;
+    width: 15vw;
+}
+
+.headingtwo {
+    position: absolute;
+    left: 16vw;
+    top: 2vh;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.toppost {
+    /* border: 2px solid black; */
+    width: 80vh;
+}
+
+.paratwo {
+    position: absolute;
+    top: 8vh;
+    left: 16vw;
+    font-weight: bold;
+
+}
+
+.logoshome {
+    display: flex;
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+    height: 8vh;
+}
+
+.gotonavhome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    height: 10vh;
+
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonehome {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+
+}
+
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.lochome {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonehome {
+    height: 4vh;
+    position: relative;
+    right: 40vw;
+    top: 13vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phohome {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemailhome {
+    height: 5vh;
+    position: relative;
+    right: 43vw;
+    top: 20vh;
+    color: red;
+}
+
+.emailhome {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+
+/* ****************************************************Hollywood*************************************** */
+
+
+.hollyheading {
+    font-size: 3em;
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+
+    text-decoration: underline;
+}
+
+.hollytop {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.imagehollytop {
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    position: absolute;
+    left: 2vh;
+    top: 10vh;
+
+
+
+}
+
+.headingholly {
+    position: absolute;
+    left: 10vw;
+}
+
+.hollydata {
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    height: 55vh;
+    width: 30vw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    /* box-shadow: 2px 2px solid black; */
+
+}
+
+.hollydata:hover {
+    /* background-color: aqua; */
+    box-shadow: 2px 2px 20px black;
+
+}
+
+
+
+
+.hollypara {
+    position: absolute;
+    top: 38vh;
+    left: 4vh;
+}
+
+.hollyone {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hollyunderdiv {
+    height: 40vh;
+    width: 50vw;
+    border-bottom: 5px solid bisque;
+    position: relative;
+
+}
+
+
+.underdivimage {
+    height: 35vh;
+    width: 25vw;
+    position: absolute;
+    top: 2vh;
+
+    border-radius: 5px;
+
+}
+
+.underdivheading {
+    position: absolute;
+    left: 26vw;
+    width: 50vw;
+}
+
+.underdivpara {
+    position: absolute;
+    left: 26vw;
+    top: 10vh;
+    /* border: 2px solid black; */
+    overflow: hidden;
+
+    height: 22vh;
+    width: 25vw;
+
+}
+
+.underdivtwo {
+    /* border: 2px solid black; */
+    position: relative;
+    height: 32vh;
+    width: 38vw;
+    border-bottom: 5px solid beige;
+
+}
+
+.underdivimagetwo {
+    height: 25vh;
+    width: 17vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 2vh;
+    left: 0vw;
+    /* border: 2px solid red; */
+}
+
+.underdivheadingtwo {
+    position: absolute;
+    left: 18vw;
+}
+
+.underdivparatwo {
+    position: absolute;
+    font-weight: bold;
+    left: 18vw;
+    top: 8vh;
+    height: 15vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+
+}
+
+.advissmentholly {
+    border: 2px solid black;
+    height: 105vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+
+}
+
+.footerthree {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    /* width: 100vw; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 10px;
+    position: relative;
+    top: 5vh;
+    border: 2px solid black;
+
+
+
+}
+
+.logosholly {
+    display: flex;
+    position: relative;
+    left: 15vw;
+    top: 11vh;
+    height: 8vh;
+}
+
+.gotonavholly {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    height: 10vh;
+    top: 2vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logooneholly {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+
+}
+
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locholly {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephoneholly {
+    height: 4vh;
+    position: relative;
+    right: 40vw;
+    top: 13vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phoholly {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemailholly {
+    height: 5vh;
+    position: relative;
+    right: 43vw;
+    top: 20vh;
+    color: red;
+}
+
+.emailholly {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+
+
+
+
+
+
+
+
+
+/* ************************************Bollywood********************************************************** */
+
+
+.bollyheading {
+    font-size: 3em;
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+    text-decoration: underline;
+
+}
+
+.underdivimagebolly {
+    height: 35vh;
+    width: 25vw;
+    position: absolute;
+    top: 2vh;
+
+    border-radius: 5px;
+
+
+}
+
+.underdivheadingbolly {
+    position: absolute;
+    left: 26vw;
+
+}
+
+.underdivparabolly {
+    position: absolute;
+    left: 26vw;
+    top: 8vh;
+    /* border: 2px solid black; */
+
+    height: 20vh;
+    width: 25vw;
+
+}
+
+.underdivheadingtwobolly {
+    position: absolute;
+    left: 18vw;
+
+}
+
+.underdivparatwobolly {
+    position: absolute;
+    font-weight: bold;
+    left: 18vw;
+    top: 8vh;
+    height: 15vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+
+}
+
+.underdivimagetwobolly {
+    height: 25vh;
+    width: 17vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 2vh;
+    left: 0vw;
+
+}
+
+.bollytop {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    width: 190vh;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 3vw;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+.underdivtwobolly {
+    position: relative;
+    height: 32vh;
+    width: 38vw;
+    border-bottom: 5px solid beige;
+    /* border: 2px solid black; */
+
+}
+
+.bollydata {
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    height: 55vh;
+    width: 29vw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.bollydata:hover {
+
+    box-shadow: 2px 2px 20px black;
+}
+
+.headingbolly {
+    text-align: center;
+
+}
+
+.imagebollytop {
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    position: absolute;
+    left: 2vh;
+    top: 10vh;
+
+}
+
+.bollypara {
+    position: absolute;
+    top: 38vh;
+    left: 4vh;
+
+}
+
+.bollyone {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.bollyunderdiv {
+    height: 40vh;
+    width: 50vw;
+    border-bottom: 5px solid bisque;
+    position: relative;
+
+}
+
+.logosbolly {
+    display: flex;
+    position: relative;
+    top: 12vh;
+    left: 15vw;
+    height: 8vh;
+}
+
+.gotonavbolly {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    height: 10vh;
+    top: 2vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonebolly {
+    height: 5vh;
+    position: relative;
+    left: -0.4vw;
+    top: 1vh;
+
+}
+
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locbolly {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonebolly {
+    height: 4vh;
+    position: relative;
+    right: 40vw;
+    top: 13vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phobolly {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemailbolly {
+    height: 5vh;
+    position: relative;
+    right: 43vw;
+    top: 20vh;
+    color: red;
+}
+
+.emailbolly {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+.footertwo {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 10px;
+    width: 97.5vw;
+    /* margin-left: 0.2vw; */
+    position: relative;
+    top: 5vh;
+    border: 2px solid black;
+
+}
+
+.Advertisementbolly {
+    border: 2px solid black;
+    height: 110vh;
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    /* left: 1vw; */
+}
+
+.bollybolly {
+    position: relative;
+    /* right: 1.5vw; */
+    /* top: 280vh; */
+    /* width: 190vh; */
+    /* left:2.5vw; */
+    /* border: 2px solid black; */
+}
+
+
+
+
+
+/* ***************************************fitness******************************************************* */
+
+.fitheading {
+    font-size: 3em;
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+    text-decoration: underline;
+
+}
+
+.underdivimagefit {
+    height: 35vh;
+    width: 25vw;
+    position: absolute;
+    top: 2vh;
+
+    border-radius: 5px;
+
+
+
+}
+
+.underdivheadingfit {
+    position: absolute;
+    left: 26vw;
+}
+
+.underdivparafit {
+    position: absolute;
+    left: 26vw;
+    top: 10vh;
+    /* border: 2px solid black; */
+    overflow: hidden;
+
+    height: 22vh;
+    width: 25vw;
+
+}
+
+.fittop {
+    height: 60vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fitdata {
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    height: 55vh;
+    width: 30vw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.fitdata:hover {
+
+    box-shadow: 2px 2px 20px black;
+}
+
+.headingfit {
+    text-align: center;
+}
+
+.imagefittop {
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    position: absolute;
+    left: 2vh;
+    top: 10vh;
+
+}
+
+.fitpara {
+    position: absolute;
+    top: 38vh;
+    left: 4vh;
+
+}
+
+.fitone {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.fitunderdiv {
+    height: 40vh;
+    width: 50vw;
+    border-bottom: 5px solid bisque;
+    position: relative;
+}
+
+.underdivtwofit {
+    position: relative;
+    height: 32vh;
+    width: 38vw;
+    border-bottom: 5px solid beige;
+}
+
+.underdivimagetwofit {
+    height: 25vh;
+    width: 17vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 2vh;
+    left: 0vw;
+    /* border: 2px solid red; */
+}
+
+.underdivheadingtwofit {
+    position: absolute;
+    left: 18vw;
+}
+
+.underdivparatwofit {
+    position: absolute;
+    font-weight: bold;
+    left: 18vw;
+    top: 8vh;
+    height: 15vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+
+}
+
+.advissmentfit {
+    border: 2px solid black;
+    height: 110vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+
+}
+
+
+.footerfit {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+    top: 2vh;
+    border: 2px solid black;
+}
+
+.logosfit {
+    display: flex;
+    position: relative;
+    left: 10vw;
+    height: 8vh;
+}
+
+.gotonavfit {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    height: 10vh;
+    top: -11vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonefit {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+
+}
+
+/* .logo {
+    height: 8vh;
+   
+
+} */
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locfit {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonefit {
+    height: 4vh;
+    position: relative;
+    right: 40vw;
+    top: -1vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phofit {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemailfit {
+    height: 5vh;
+    position: relative;
+    right: 43vw;
+    top: 6vh;
+    color: red;
+}
+
+.emailfit {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+
+
+
+
+
+/* ******************************************food******************************************************* */
+
+
+.foodheading {
+    font-size: 3em;
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+    text-decoration: underline;
+
+}
+
+.foodtop {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fooddata {
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    height: 55vh;
+    width: 30vw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.fooddata:hover {
+
+    box-shadow: 2px 2px 20px black;
+}
+
+.headingfood {
+    text-align: center;
+}
+
+.imagefoodtop {
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    position: absolute;
+    left: 2vh;
+    top: 10vh;
+
+}
+
+.foodpara {
+    position: absolute;
+    top: 38vh;
+    left: 4vh;
+
+}
+
+.foodone {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.foodunderdiv {
+    height: 40vh;
+    width: 50vw;
+    border-bottom: 5px solid bisque;
+    position: relative;
+}
+
+.underdivimagefood {
+    height: 35vh;
+    width: 25vw;
+    position: absolute;
+    top: 2vh;
+
+    border-radius: 5px;
+
+}
+
+.underdivheadingfood {
+    position: absolute;
+    left: 26vw;
+}
+
+.underdivparafood {
+    position: absolute;
+    left: 26vw;
+    top: 8vh;
+    overflow: hidden;
+    /* border: 2px solid black; */
+
+    height: 22vh;
+    width: 25vw;
+
+}
+
+.underdivtwofood {
+    /* border: 2px solid black; */
+    position: relative;
+    height: 32vh;
+    width: 38vw;
+    border-bottom: 5px solid beige;
+
+}
+
+.underdivimagetwofood {
+    height: 25vh;
+    width: 17vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 2vh;
+    left: 0vw;
+    /* border: 2px solid red; */
+}
+
+.underdivheadingtwofood {
+    position: absolute;
+    left: 18vw;
+}
+
+.underdivparatwofood {
+    position: absolute;
+    font-weight: bold;
+    left: 18vw;
+    top: 8vh;
+    height: 15vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+
+}
+
+.footerfood {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 32vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+
+    top: 2vh;
+    border: 2px solid black;
+
+}
+
+.advissmentfood {
+    border: 2px solid black;
+    height: 105vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    /* left: 35vw; */
+
+}
+
+.logosfood {
+    display: flex;
+    position: relative;
+    top: 15vh;
+    height: 10vh;
+    left: 15vw;
+}
+
+
+.navlinktwo {
+    color: black;
+}
+
+.gotonavfood {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    height: 10vh;
+    top: -11vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonefood {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 1vh;
+
+}
+
+.logo {
+    height: 8vh;
+    /* width: vw; */
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.locfood {
+    font-weight: bold;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephonefood {
+    height: 4vh;
+    position: relative;
+    right: 40vw;
+    top: -1vh;
+    /* border: 5px solid black; */
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.phofood {
+    font-weight: bold;
+    position: absolute;
+    top: 13vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemailfood {
+    height: 5vh;
+    position: relative;
+    right: 43vw;
+    top: 6vh;
+    color: red;
+}
+
+.emailfood {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 20vh;
+    left: 10vw
+}
+
+.logosfood {
+    display: flex;
+    position: relative;
+    left: 10vw;
+    border: 2pxsolid black;
+    height: 5vh;
+    top: -1vh;
+
+}
+
+
+
+
+
+
+
+/* ******************************************technology******************************************* */
+
+.techheading {
+    font-size: 3em;
+    width: 10vw;
+    position: relative;
+    left: 2vw;
+    text-decoration: underline;
+
+}
+
+.techtop {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.techdata {
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    height: 55vh;
+    width: 30vw;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.techdata:hover {
+
+    box-shadow: 2px 2px 20px black;
+}
+
+.headingtech {
+    text-align: center;
+}
+
+.imagetechtop {
+    height: 30vh;
+    width: 28vw;
+    border-radius: 15px;
+    position: absolute;
+    left: 2vh;
+    top: 10vh;
+
+}
+
+.techpara {
+    position: absolute;
+    top: 38vh;
+    left: 4vh;
+
+}
+
+.techone {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.techunderdiv {
+    height: 40vh;
+    width: 50vw;
+    border-bottom: 5px solid bisque;
+    position: relative;
+
+}
+
+.underdivimagetech {
+    height: 35vh;
+    width: 25vw;
+    position: absolute;
+    top: 2vh;
+
+    border-radius: 5px;
+
+}
+
+.underdivheadingtech {
+    position: absolute;
+    left: 26vw;
+}
+
+.underdivparatech {
+    position: absolute;
+    left: 26vw;
+    top: 10vh;
+    /* border: 2px solid black; */
+    overflow: hidden;
+
+    height: 22vh;
+    width: 25vw;
+
+}
+
+.underdivtwotech {
+    /* border: 2px solid black; */
+    position: relative;
+    height: 32vh;
+    width: 38vw;
+    border-bottom: 5px solid beige;
+
+}
+
+.underdivimagetwotech {
+    height: 25vh;
+    width: 17vw;
+    border-radius: 10px;
+    position: absolute;
+    top: 2vh;
+    left: 0vw;
+    /* border: 2px solid red; */
+}
+
+.underdivheadingtwotech {
+    position: absolute;
+    left: 18vw;
+}
+
+.underdivparatwotech {
+    position: absolute;
+    font-weight: bold;
+    left: 18vw;
+    top: 8vh;
+    height: 15vh;
+    width: 20vw;
+    /* border: 2px solid black; */
+
+}
+
+.advissmenttech {
+    border: 2px solid black;
+    height: 105vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+    left: 5vw;
+
+}
+
+.footertech {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 38vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 10px;
+    position: relative;
+    top: 2vh;
+}
+
+
+.footer {
+    /* background-image: linear-gradient(rgb(173, 247, 211),rgb(193, 229, 239));  */
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 32vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    gap: 10px;
+    position: relative;
+    top: 5vh;
+
+}
+
+.footertwo {
+    background-color: rgba(0, 0, 0, 0.742);
+    height: 35vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+    gap: 10px;
+    position: relative;
+    top: 5vh;
+    border: 2px solid black;
+
+
+}
+
+.logostech {
+    display: flex;
+    position: relative;
+    top: 15vh;
+    height: 10vh;
+    left: 15vw;
+}
+
+
+.navlinktwo {
+    color: black;
+}
+
+.gotonavtech {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25vw;
+    width: 40vh;
+    height: 20vh;
+
+    /* border: 2px solid black; */
+
+}
+
+.logoonetech {
+    height: 5vh;
+    position: relative;
+    left: 1vw;
+    top: 11vh;
+
+
+
+}
+
+.location {
+    position: absolute;
+    left: 5vw;
+    top: 4vh;
+}
+
+.loctech {
+    font-weight: bold;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    color: whitesmoke;
+
+}
+
+.logoonephone {
+    height: 5vh;
+    position: relative;
+    right: 40vw;
+    top: 22vh;
+    color: aliceblue;
+    background-color: aqua;
+
+
+}
+
+.photech {
+    font-weight: bold;
+    position: absolute;
+    top: 22vh;
+    left: 10vw;
+
+    color: whitesmoke;
+
+}
+
+.logoonemail {
+    height: 5vh;
+    position: relative;
+    right: 43vw;
+    top: 8vh;
+    color: red;
+}
+
+.emailtech {
+    font-weight: bold;
+    position: absolute;
+    color: whitesmoke;
+    top: 8vh;
+    left: 10vw
+}
+
+.logosfood {
+    position: relative;
+    left: 10vw;
+    /* border: 2px solid black; */
+    height: 5vh;
+
+}
+
+.gotonav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30vw;
+    width: 40vh;
+
+    /* border: 2px solid black; */
+
+}
+
+
+
+
+
+/* ************************************details************************************************* */
+.detailsthree {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+
+}
+
+.detailsparaone {
+    width: 30vw;
+}
+
+.detailsimage {
+    height: 40vh;
+    width: 30vw;
+}
+
+.btngoback {
+    height: 10vh;
+    width: 25vw;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+
+/* *****************************humbergure********************** */
+
+.fa-solid {
+    display: none;
+}
+
+.navlinkResponsive {
+    display: none;
+}
+
+.listresponsive {
+    display: none;
+
+}
+
+.navbar-listResponsive {
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **********************************media************************************ */
+
+
+
+
+
+
+@media only screen and (min-width:375px) and (max-width:667px) {
+
+    .fa-solid {
+        display: block;
+        float: right;
+        font-size: 3em;
+    }
+
+    .display {
+        position: absolute;
+        right: 1vw;
+        top: 1vh;
+    }
+
+    body {
+        width: 80vw;
+    }
+
+    .navbar-listResponsive {
+        display: block;
+        position: fixed;
+        right: 0vw;
+        top: 5vh;
+        line-height: 10vh;
+        width: 60vw;
+        font-size: 2em;
+        background-color: rgb(174, 238, 238);
+        z-index: 55;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    .navbar {
+        width: 95vw;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .hambergerlinksShows {
+        display: block;
+    }
+
+
+    .hambergerlinksHide {
+        display: none;
+    }
+
+
+    .listresponsive {
+        display: block;
+    }
+
+    .navlinkResponsive {
+        display: block;
+    }
+
+
+    .navtwo {
+        width: 60vw;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    .route {
+        font-size: 1em;
+        margin-left: -90vw;
+        font-weight: bolder;
+
+    }
+
+    .siren {
+        font-size: 3em;
+    }
+
+    .headinggs {
+        height: 20px;
+        font-size: 2em;
+        background-color: aqua;
+    }
+
+    .heading {
+        font-size: 2em;
+        margin: auto;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .navlink {
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    .top {
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .imagetopone {
+        height: 55vh;
+        width: 90vw;
+        border-radius: 20px;
+    }
+
+    .midtop {   
+        width: 99vw;  
+        align-items: center;
+    }
+
+    .imagetoptwo {
+        height: 60vh;
+        width: 90vw;
+        border-radius: 20px;
+        margin-left: 5vw;
+    }
+
+    .imagetopthree {
+        height: 55vh;
+        width: 90vw;
+        border-radius: 20px;
+    }
+
+    .secondtop {
+        align-items: center;
+        flex-direction: column;
+        width: 99vw;
+        height: 170vh;
+    }
+
+    .underdivfirst {
+        width: 90vw;
+        height: 62vh;
+        overflow: hidden;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+
+    .parahome {
+        width: 83vw;
+        height: 15vh;
+        font-size: 0.8em;
+        overflow: hidden;
+        font-weight: bold;
+    }
+
+    .homeimage {
+        height: 30vh;
+        width: 86vw;
+        border-radius: 20px;
+    }
+
+    .thirdtop {
+        width: 99vw;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .imageone {
+        height: 30vh;
+        width: 45vw;
+    }
+
+    .datatwo {
+        width: 90vw;
+        height: 32vh;
+        position: relative;
+        left: 2vw;
+        border-bottom: 5px solid wheat;
+    }
+
+    .topstories {
+        width: 95vw;
+        margin-right: 5vw;
+    }
+
+    .latest {
+        position: relative;
+        left: 15vw;
+        width: 70vw;
+        text-align: center;
+    }
+
+    .paraone {
+        width: 38vw;
+        height: 20vh;
+        position: relative;
+        font-weight: bold;
+        left: 50vw;
+        overflow: hidden;
+    }
+
+    .headingone {
+        font-size: 1.2em;
+        position: absolute;
+        left: 50vw;
+        top: 4vh;
+    }
+
+    .data {
+        position: relative;
+        left: 5vw;
+        height: 32vh;
+        width: 90vw;
+        border-bottom: 10px solid rgb(244, 119, 16);
+    }
+
+    .post {
+        width: 68vw;
+        font-size: 2em;
+        margin: auto;
+        position: relative;
+        left: 15vw; 
+    }
+
+    .tops {
+        margin: auto;
+        width: 70vw;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .imagetwo {
+        height: 28vh;
+        width: 52vw;
+    }
+
+    .headingtwo {
+        width: 34vw;
+        position: absolute;
+        left: 55vw;
+        top: 2vh;
+        font-size: 1.2em;
+    }
+
+    .toppost {
+        position: relative;
+        top: 10px;
+        width: 99vw;
+        height: 210vh;
+    }
+
+    .paratwo {
+        position: absolute;
+        left: 55vw;
+        overflow: hidden;
+        font-size: 0.7em;
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .logoshome {
+        position: relative;
+        top: 2vh;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .gotonavhome {
+        width: 10vh;
+        position: relative;
+        left: 8vw;
+    }
+
+    .logoonehome {
+        height: 3vh;
+        position: relative;
+        left: -4vw;
+        top: 1vh;
+
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .lochome {
+        position: absolute;
+        top: 5.5vh;
+        left: 8vw;
+        color: whitesmoke;
+        font-size: 0.6em;
+
+    }
+
+    .logoonephonehome {
+        height: 2.5vh;
+        position: relative;
+        right: 43vw;
+        top: 14vh;
+        color: aliceblue;
+    }
+
+    .phohome {
+        top: 14vh;
+        left: 8vw;
+        color: whitesmoke;
+        font-size: 0.6em;   
+    }
+
+    .logoonemailhome {
+        height: 3vh;
+        position: relative;
+        right: 51vw;
+        top: 22vh;
+    }
+
+    .emailhome {
+        position: absolute;
+        color: whitesmoke;
+        top: 22.5vh;
+        left: 8vw;
+        font-size: 0.5em;
+    }
+
+    .navlinktwo {
+        color: black;
+    }
+
+    .advisment { 
+        display: none;
+    }
+
+
+    .footer { 
+        height: 40vh;
+        width: 98vw;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center; 
+        gap: 10px;
+        position: relative;
+        left: 1vw;
+     }
+    
+
+    /* ****************************************************Hollywood*************************************** */
+
+
+
+    .hollyheading {
+        font-size: 2em;
+        width: 10vw;
+        position: relative;
+        left: 3vw;
+        text-decoration: underline;
+    }
+
+
+    .hollytop {
+        height: 240vh;
+        width: 98vw;
+        flex-direction: column;
+    }
+
+    .imagehollytop {
+        height: 45vh;
+        width:90vw;
+        border-radius: 15px;
+    }
+
+    .headingholly {
+        position: absolute;
+        left: 28vw;
+    }
+
+    .hollydata {
+        height: 75vh;
+        width: 95vw;
+    }
+
+    .hollypara {
+        position: absolute;
+        top: 54vh;
+        width: 82vw;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .hollyone {
+        width: 99vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hollyunderdiv {
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+    }
+
+    .underdivimage {
+        height: 36vh;
+        width: 50vw;
+        border-radius: 10px;
+
+    }
+
+    .underdivheading {
+        position: absolute;
+        left: 50vw;
+        width: 40vw;
+    }
+
+    .underdivpara {
+        position: absolute;
+        left: 51vw;
+        top: 15vh;
+        font-weight: bold;
+        overflow: hidden;
+        font-size: 0.5em;
+        height: 22vh;
+        width: 38vw;
+    }
+
+    .underdivtwo {
+        margin-left: 5vw;
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+    }
+
+    .toppp {
+        margin: auto;
+        position: relative;
+        font-size: 2em;
+        width: 60vw;
+        left: 5vw;
+    }
+
+    .underdivimagetwo {
+        height: 32vh;
+        width: 45vw;
+        border-radius: 10px;
+    }
+
+    .underdivheadingtwo {
+        position: absolute;
+        left: 48vw;
+    }
+
+    .underdivparatwo {
+        position: absolute;
+        font-weight: bold;
+        left: 48vw;
+        top: 12vh;
+        height: 20vh;
+        width: 40vw;
+        font-size: 1em;
+        overflow: hidden;
+    }
+
+    .topone {
+        width: 90vw;
+        position: relative;
+    }
+
+    .topss {
+        margin: auto;
+        position: relative;
+        font-size: 2em;
+        width: 60vw;
+        left: 10vw;
+    }
+
+    .footerthree {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 37vh;
+        width: 99vw;
+        border-radius: 5px;
+    }
+
+    .advissmentholly {
+        
+        display: none;
+    }
+
+
+    .logosholly {
+        flex-direction: column;
+        position: relative;
+        left: 22vw;
+        top: 1vh;
+        gap: 4px;
+        height: 8vh;
+    }
+
+    .gotonavholly {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 15vw;
+        width: 12vh;
+        height: 8vh;
+        top: 1vh;
+    }
+
+    .logooneholly {
+        height: 3vh;
+        position: relative;
+        left: -3.5vw;
+        top: 1vh;
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locholly {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 8vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+    }
+
+    .logoonephoneholly {
+        height: 2.5vh;
+        position: relative;
+        right: 41.5vw;
+        top: 13vh;
+        color: aliceblue;
+        background-color: aqua;
+
+
+    }
+
+    .phoholly {
+        font-weight: bold;
+        position: absolute;
+        top: 13vh;
+        font-size: 0.8em;
+        left: 8vw;
+        color: whitesmoke;
+    }
+
+    .logoonemailholly {
+        height: 3vh;
+        position: relative;
+        right: 49vw;
+        top: 20vh;
+    }
+
+    .emailholly {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 0.6em;
+        top: 20vh;
+        left: 8vw
+    }
+
+
+
+
+
+
+
+    /* *****************************************Bollywood****************************************** */
+
+    .bollyheading {
+        font-size: 3em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        top: 5vh;
+        text-decoration: underline;
+
+    }
+
+    .underdivimagebolly {
+        height: 30vh;
+        width: 40vw;
+        position: absolute;
+        top: 2vh;
+        border-radius: 5px;
+    }
+
+    .underdivheadingbolly {
+        position: absolute;
+        font-size: 1.2em;
+        left: 41vw;
+        width: 50vw;
+    }
+
+    .underdivparabolly {
+        position: absolute;
+        left: 40vw;
+        top: 8vh;
+        overflow: hidden;
+        height: 20vh;
+        width: 50vw;
+    }
+
+    .advissmentbolly {
+        display: none;
+    }
+
+    .bollytop {
+        height: 280vh;
+        flex-direction: column;
+        width: 98vw;
+        position: relative; 
+        right: 2vw; 
+    }
+
+    .bollybolly {
+        position: relative;
+        top: 294vh;
+        width: 98vw;
+    }
+
+    .bollydata {
+        border-radius: 20px;
+        height: 135vh;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .underdivtwobolly {
+        position: relative;
+        left:5vw;
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+    }
+
+    .underdivimagetwobolly {
+        height: 35vh;
+        width: 40vw;
+        border-radius: 10px;
+        position: absolute;
+        top: 2vh;
+        left: 0vw;
+
+    }
+
+    .underdivheadingtwobolly {
+        position: absolute;
+        left: 42vw;
+        width: 40vw;
+
+    }
+
+    .underdivparatwobolly {
+        position: absolute;
+        font-size: 1em;
+        left: 42vw;
+        top: 13vh;
+        height: 15vh;
+        width: 40vw;
+    }
+
+    .headingbolly {
+        text-align: center;
+    }
+
+    .imagebollytop {
+        height: 60vh;
+        width: 85vw;
+        border-radius: 15px;
+        position: absolute;
+        top: 10vh;
+    }
+
+    .bollypara {
+        position: absolute;
+        top: 70vh;
+        width: 80vw;
+        height: 10vh;
+        left: 5vh;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+
+    .bollyone {
+        width: 98vw;
+        height: 500vh;
+        flex-direction: column;
+    }
+
+    .stories {
+        position: relative;
+        top: 300vh;
+    }
+
+    .bollytopstories {
+        width: 60vw;
+        margin: auto;
+        font-size: 2em;
+        position: relative;
+        left: 10vw;
+    }
+
+    .bollytoppost {
+        width: 60vw;
+        margin: auto;
+        font-size: 2em;
+        position: relative;
+        left: 10vw;
+    }
+
+    .bollyunderdiv {
+        height: 35vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 5vw;
+    }
+
+    .Advertisementbolly {
+        display: none;
+    }
+
+    .gotonavbolly {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:15vw;
+        width: 15vh;
+        height: 10vh;
+        top: -2vh;
+    }
+    
+
+    .logoonebolly {
+        height: 3vh;
+        position: relative;
+        left: -3vw;
+        top: 1vh;
+
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locbolly {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonebolly {
+        height: 2.5vh;
+        position: relative;
+        right: 38vw;
+        top: 13vh;
+        color: aliceblue;
+    }
+
+    .phobolly {
+        font-weight: bold;
+        position: absolute;
+        top: 13vh;
+        left: 10vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+
+    }
+
+    .logoonemailbolly {
+        height: 3vh;
+        position: relative;
+        right:46vw;
+        top: 20vh;
+    }
+
+    .emailbolly {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 20.5vh;
+        font-size: 0.6em;
+        left: 9vw
+    }
+
+    .logosbolly {
+        flex-direction: column;
+        position: relative;
+        left: 22vw;
+        height: 5vh;
+       top: 1vh;
+
+    }
+
+
+    .footertwo {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 33vh;
+        width: 99vw;
+        position: relative;
+        top: 592vh;
+    
+    }
+
+
+
+
+    /* ******************************************food******************************************************* */
+
+
+    .foodheading {
+        font-size: 3em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+
+    }
+
+    .foodtop {
+        height: 240vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .fooddata {
+        border-radius: 20px;
+        height: 80vh;
+        width: 90vw;
+    }
+
+    .headingfood {
+        text-align: center;
+    }
+
+    .imagefoodtop {
+        height: 45vh;
+        width: 85vw;
+        border-radius: 15px;
+    }
+
+    .foodpara {
+        position: absolute;
+        top: 55vh;
+        left: 1vw;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .foodone {
+        flex-direction: column;
+        width:99vw;
+    }
+
+    .foodunderdiv {
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 5vw;
+    }
+
+    .underdivimagefood {
+        height: 35vh;
+        width: 50vw;
+        border-radius: 5px;
+
+    }
+
+    .underdivheadingfood {
+        position: absolute;
+        left: 52vw;
+    }
+
+    .underdivparafood {
+        position: absolute;
+        left:51vw;
+        top: 13vh;
+        font-weight: bold;
+        overflow: hidden;
+        height: 20vh;
+        width: 40vw;
+    }
+
+    .foodtopstories {
+        text-align: center;
+        margin: auto;
+        font-size: 2em;
+        width: 60vw;
+        position: relative;
+        left: 5vw;
+    }
+
+    .foodtoppost {
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+        width: 60vw;
+        position: relative;
+        left: 5vw;
+    }
+
+    .underdivtwofood {
+        position: relative;
+        left: 5vw;
+        height: 42vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+    }
+
+    .underdivimagetwofood {
+        height: 37vh;
+        width: 45vw;
+        border-radius: 10px;
+    }
+
+    .underdivheadingtwofood {
+        position: absolute;
+        left: 50vw;
+    }
+
+    .underdivparatwofood {
+        position: absolute;
+        font-weight: bold;
+        left: 50vw;
+        font-size: 1em;
+        top: 13vh;
+        height: 25vh;
+        width: 40vw;
+
+    }
+
+    .footerfood {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 35vh;
+        width: 99vw;
+    }
+
+    .advissmentfood {
+        display: none;
+    }
+
+
+    .gotonavfood {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:25vw;
+        width: 15vh;
+        height: 10vh;
+    }
+
+    .logoonefood {
+        height: 3vh;
+        position: relative;
+        left: -2vw;
+        top: 1vh;
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locfood {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 9vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonefood {
+        height: 3vh;
+        position: relative;
+        right: 24.5vw;
+        top: vh;
+        color: aliceblue;
+        background-color: aqua;
+    }
+
+    .phofood {
+        font-weight: bold;
+        position: absolute;
+        top: 15.5vh;
+        left: 11vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+
+    }
+
+    .logoonemailfood {
+        height: 3vh;
+        position: relative;
+        right: 33.5vw;
+        top: 8vh;
+    }
+
+    .emailfood {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 24.5vh;
+        left: 9vw;
+        font-size: 0.6em;
+    }
+
+    .logosfood {
+        flex-direction: column;
+        position: absolute;
+        left: 40vw;
+        height: 5vh;
+        top:1vh;
+
+    }
+
+
+
+
+
+
+
+
+    /* ******************************fitness************************************************************ */
+    .fitheading {
+        font-size: 3em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+
+    }
+
+    .fittop {
+        height: 260vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .fitdata {
+        border-radius: 20px;
+        height: 82vh;
+        width: 90vw;
+        text-align: center;
+
+    }
+
+    .headingfit {
+        text-align: center;
+    }
+
+    .imagefittop {
+        height: 50vh;
+        width: 86vw;
+        border-radius: 15px;
+    }
+
+    .fitpara {
+        position: relative;
+        top: 48vh;
+        left: 5vw;
+        font-size: 1em;
+        width: 80vw;
+        overflow: hidden;
+        height: 20vh;
+        font-weight: bold;
+    }
+
+    .fitone {
+        flex-direction: column;
+        width:99vw;
+        height: 1180vh;
+    }
+
+    .fitunderdiv {
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 5vw;
+    }
+
+    .fitdtopstories {
+        text-align: center;
+        font-size: 2em;
+        width: 60vw;
+        position: relative;
+        left:5vw;
+        margin: auto;
+
+    }
+
+    .fitdtoppost {
+        text-align: center;
+        margin: auto;
+        font-size: 2em;
+        width: 60vw;
+        position: relative;
+        left: 5vw;
+
+    }
+
+    .underdivimagefit {
+        height: 37vh;
+        width: 50vw;
+    }
+
+    .underdivheadingfit {
+        position: absolute;
+        font-size: 1.5em;
+        left: 51vw;
+        width: 38vw;
+    }
+
+    .underdivparafit {
+        position: absolute;
+        left: 51vw;
+        top: 10vh;
+        font-size: 0.6em;
+        font-weight: bold;
+        height: 28vh;
+        width: 38vw;
+        overflow: hidden;
+    }
+
+    .underdivtwofit {
+        position: relative;
+        left: 5vw;
+        height: 38vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+    }
+
+    .underdivimagetwofit {
+        height: 32vh;
+        width: 40vw;
+        border-radius: 10px;
+    }
+
+    .underdivheadingtwofit {
+        position: absolute;
+        left: 45vw;
+        font-size: 1.5em;
+    }
+
+    .underdivparatwofit {
+        position: absolute;
+        font-weight: bold;
+        left: 45vw;
+        top: 10vh;
+        height: 22vh;
+        width: 40vw;
+    }
+
+    .footerfit {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 35vh;
+        width:99vw;
+        position: relative;
+        top: 18vh;
+
+    }
+
+    .advissmentfit {
+        display: none;
+    }
+
+    .gotonavfit {
+        position: relative;
+        left: 14vw;
+        width: 15vh;
+        height: 10vh;
+    }
+
+    .logoonefit {
+        height: 3vh;
+        position: relative;
+        left: -3vw;
+        top: 1vh;
+
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locfit {
+        font-weight: bold;
+        position: absolute;
+        top: 4.8vh;
+        left: 9vw;
+        font-size: 0.8em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonefit {
+        height: 2.5vh;
+        position: relative;
+        right: 37vw;
+        top: 0vh;
+        color: aliceblue;
+    }
+
+    .phofit {
+        font-weight: bold;
+        position: absolute;
+        font-size: 0.8em;
+        top: 16vh;
+        left: 9vw;
+        color: whitesmoke;
+    }
+
+    .logoonemailfit {
+        height: 2.5vh;
+        position: relative;
+        right: 45vw;
+        top: 10vh;
+    }
+
+    .emailfit {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 26.5vh;
+        left: 9vw;
+        font-size: 0.5em;
+
+    }
+
+    .logosfit {
+        flex-direction: column;
+        position: relative;
+        left: 22vw;
+        top: -20vw;
+    }
+
+
+
+    /* *********************************************tecnology********************************** */
+    .techheading {
+        font-size: 3em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+
+    }
+
+    .techtop {
+        height: 230vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .techdata {
+        border-radius: 20px;
+        height: 75vh;
+        width: 90vw;
+        text-align: center;
+
+    }
+
+    .headingtech {
+        text-align: center;
+    }
+
+    .imagetechtop {
+        height: 40vh;
+        width: 85vw;
+        border-radius: 15px;
+    }
+
+    .techpara {
+        position: absolute;
+        width: 82vw;
+        height: 20vh;
+        font-size: 1em;
+        top: 48vh;
+        font-weight: bold;
+        left: 3vh;
+    }
+
+    .techone {
+        flex-direction: column;
+        width: 99vw;
+    }
+
+    .techunderdiv {
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 2vh;
+    }
+
+    .underdivimagetech {
+        height: 35vh;
+        width: 50vw;
+        position: absolute;
+        top: 2vh;
+        border-radius: 5px;
+    }
+
+    .underdivheadingtech {
+        position: absolute;
+        left: 51vw;
+        font-size: 1.2em;
+    }
+
+    .underdivparatech {
+        position: absolute;
+        left: 51vw;
+        top: 5vh;
+        font-weight: bold;
+        font-size: 1em;
+        overflow: hidden;
+        height: 26vh;
+        width: 40vw;
+    }
+
+    .underdivtwotech {
+        position: relative;
+        height: 35vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+
+    }
+
+    .underdivimagetwotech {
+        height: 30vh;
+        width: 46vw;
+        border-radius: 10px;
+        position: absolute;
+        top: 2vh;
+        left: 0vw;
+    }
+
+    .underdivheadingtwotech {
+        position: absolute;
+        left: 47vw;
+        font-size: 1.5em;
+    }
+
+    .underdivparatwotech {
+        position: absolute;
+        font-weight: bold;
+        left: 48vw;
+        top: 7vh;
+        height: 20vh;
+        width: 40vw;
+        overflow: hidden;
+        font-size: 0.8em;
+    }
+
+
+    .techtoppost {
+        position: relative;
+        width: 90vw;
+        height: 550vh;
+        left: 3vw;
+    }
+
+    .underdivtwo {
+        position: relative;
+        left: -5vw;
+    }
+
+    .techtopstories {
+        width: 60vw;
+        font-size: 2em;
+        margin: auto;
+        position: relative;
+        left: 5vw;
+    }
+
+    .techtoppostone {
+        width: 60vw;
+        font-size: 2em;
+        margin: auto;
+        position: relative;
+        left: 5vw;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .advissmenttech {  
+        display: none;
+    }
+
+    .footertech {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 40vh;
+        width: 99vw;
+    }
+
+    .logoonetech {
+        height: 3vh;
+        position: relative;  
+        top: 2vh;
+        left: -3.5vw;
+    }
+
+    .location {
+        position: absolute;
+        left: 3vw;
+        top: 4vh;
+    }
+   
+
+    .loctech {
+        font-weight: bold;
+        position: absolute;
+        top: 6vh;
+        left: 9vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+    }
+
+    .logoonephone {
+        height: 3vh;
+        position: relative;
+        right: 44.5vw;
+        top: 22vh;
+        color: aliceblue;
+        background-color: aqua;
+    }
+
+    .photech {
+        font-weight: bold;
+        position: absolute;
+        top: 22.5vh;
+        left: 10vw;
+        font-size: 0.6em;
+        color: whitesmoke;
+    }
+
+    .logoonemail {
+        height: 3vh;
+        position: relative;
+        right: 54vw;
+        top: 14vh;
+    }
+
+    .emailtech {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 0.6em;
+        top: 14.5vh;
+        left: 9vw
+    }
+
+    .logostech {
+        flex-direction: column;
+        position: relative;
+        left: 20vw;
+        height: 5vh;
+        top: 1vh;
+    }
+    .gotonavtech {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 8vw;
+        width: 15vw;
+        height: 8vh;
+        top: 1vh;
+
+    }
+}
+
+
+
+
+@media only screen and (min-width:500px) and (max-width:1000px) {
+
+
+    .fa-solid {
+        display: block;
+        float: right;
+        font-size: 1em;
+        position: absolute;
+        right: 0;
+        top: 3vh;
+    }
+
+    .display {
+        float: right;
+        height: 10vh;
+       
+    }
+
+    .navbar-listResponsive {
+        display: block;
+        position: absolute;
+        right: 0vw;
+        top: 8vh;
+        line-height: 10vh;
+        width: 40vw;
+        font-size: 2em;
+        background-color: rgb(174, 238, 238);
+        z-index: 55;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .hambergerlinksShows {
+        display: block;
+    }
+
+
+    .hambergerlinksHide {
+        display: none;
+    }
+
+
+    .listresponsive {
+        display: block;
+    }
+
+    .navlinkResponsive {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+        font-size: 5em;
+        width:99vw;
+    }
+
+   
+    .navtwo{
+        width: 80vw;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .siren {
+        font-size: 1.5em;
+        position: relative;
+        left:5vw;
+
+    }
+    .route {
+        color: black;
+        font-size: 1em;
+        position: relative;
+        left: 5vw
+    }
+
+    
+    .headinggs {
+        height: 20px;
+        font-size: 2em;
+    }
+
+    .heading {
+        font-size: 2em;
+        margin: auto;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .navlink {
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+
+    .namecard {
+        font-size: 3    em;
+        font-weight: bold;
+    }
+
+
+    .top {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagetopone {
+        height: 50vh;
+        width: 90vw;
+        border-radius: 20px;
+    
+    }
+    
+    .midtop {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .imagetoptwo {
+        height: 77vh;
+        width: 90vw;
+        border-radius: 20px;
+    }
+    
+    .imagetopthree {
+        height: 50vh;
+        width: 90vw;
+        border-radius: 20px;
+    }
+    .secondtop {
+        align-items: center;
+        flex-direction: column;
+         width: 99vw;
+        height: 250vh;
+    }
+
+    .underdivfirst {
+        width: 90vw;
+        flex-direction: column;
+        height: 75vh;
+        overflow: hidden;   
+        box-sizing: border-box;  
+    }
+
+    .parahome {
+        width: 80vw;
+        font-size: 1.5em;
+        position: relative;
+        left: 2vw;
+        font-weight: bold;
+        top: 1vh;
+    }
+
+    .homeimage {
+
+        height: 45vh;
+        width: 80vw;
+        border-radius: 40px;
+
+    }
+
+
+
+    .thirdtop {
+        flex-direction: column;
+        align-items: center;
+        width: 99vw;
+    }
+
+    .latest {
+        margin: auto;
+        position: relative;
+        left: 5vw;
+        width: 40vw;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .imageone {
+        height: 35vh;
+        width: 50vw;
+    }
+
+    .paraone {
+        width: 38vw;
+        height: 20vh;
+        position: relative;
+        left: 52vw;
+        font-size: 1em;
+        font-weight: bold;
+
+        top: 14vh;
+        overflow: hidden;
+    }
+
+    .datatwo {
+        border-bottom: 5px solid wheat;
+        width: 90vw;
+        height: 40vh;
+        position: relative;
+        left: 3vw;
+    }
+
+    .headingone {
+        font-size: 4em;
+        position: absolute;
+        left: 54vw;
+        font-weight: bold;
+        font-size: 1.5em;
+        top: 5vh;
+    }
+
+    .topstories {
+        width: 97vw;
+    }
+
+
+    .data {
+        position: relative;
+        height: 35vh;
+        width: 93vw;
+        border-bottom: 5px solid rgb(244, 119, 16);
+    }
+
+    .post {
+        margin: auto;
+        font-size: 3em;
+        position: relative;
+        left: 5vw;
+        width: 40vw;
+    }
+
+    .tops {
+        margin: auto;
+        position: relative;
+        left: 5vw;
+        width: 40vw;
+        font-size: 3em;
+
+    }
+
+    .ddddd {
+        width: 94vw;
+        height: 40vh;
+        position: relative;
+        left: 3vw;
+    }
+
+    .imagetwo {
+        height: 30vh;
+        width: 40vw;
+    }
+
+    .headingtwo {
+        position: absolute;
+        left: 48vw;
+        font-size: 2em;
+        font-weight: bold;
+        width: 40vw;
+      
+    }
+
+    .toppost {
+        top: 10px;
+        width: 99vw;
+        height: 250vh;
+
+    }
+
+    .paratwo {
+        left: 44vw;
+        width: 40vw;
+        font-weight: bold;
+        font-size: 1.5em;
+
+    }
+
+    .logoshome {
+        flex-direction: column;
+        position: relative;
+        left: 20vw;
+        gap: 2vh;
+        top: 4vh;
+        height: 8vh;
+    }
+
+    .gotonavhome {
+        flex-direction: column;
+        position: relative;
+        left:18vw;
+        width: 18vh;
+        height: 40vh;
+        top: 2vh;
+        font-size: 2em;
+
+    }
+    
+    .logoonehome {
+        height: 5vh;
+        position: relative;
+        left: -4vw;
+    }
+
+    .location {
+        position: absolute;
+        left: vw;
+        top: 4vh;
+    }
+
+    .lochome {
+        font-weight: bold;
+        position: absolute;
+        top: 5.5vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonehome {
+        height: 4vh;
+        position: relative;
+        right: 38vw;
+        top: 18vh;
+        color: aliceblue;
+        background-color: aqua;
+
+
+    }
+
+    .phohome {
+        font-weight: bold;
+        position: absolute;
+        top: 18vh;
+        font-size: 1.5em;
+        left: 11vw;
+        color: whitesmoke;
+
+    }
+
+    .logoonemailhome {
+        height: 4vh;
+        position: relative;
+        right: 45vw;
+        top: 30vh;
+       
+    }
+
+    .emailhome {
+        font-weight: bold;
+        position: absolute;
+        font-size: 1em;
+        color: whitesmoke;
+        top: 30vh;
+        left: 11vw
+    }
+
+    .email {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 20vh;
+        left: 49vh;
+
+    }
+
+    .navlinktwo {
+        color: black;
+    }
+
+    .advisment {
+     
+        display: none;
+        
+    }
+
+    .footer {
+        background-color: rgba(0, 0, 0, 0.742);
+        height:45vh;
+        width: 100vw;
+    }
+
+
+
+
+    /* ****************************************************Hollywood*************************************** */
+
+
+    .hollyheading {
+        font-size: 4em;
+        width: 10vw;
+        position: relative;
+        left: 4vw;
+        text-decoration: underline;
+    }
+
+
+    .hollytop {
+        height: 250vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .imagehollytop {
+        height: 45vh;
+        width: 85vw;
+        border-radius: 15px;
+        position: absolute;
+        top: 15vh;
+    }
+
+    .headingholly {
+        position: absolute;
+        left: 25vw;
+        font-size: 4em;
+    }
+
+    .hollydata {
+        border-radius: 20px;
+        height: 80vh;
+        width: 90vw;
+        text-align: center;
+        position: relative;
+    }
+
+    .hollypara {
+        position: absolute;
+        top: 60vh;
+        width: 80vw;
+        height: 10vh;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .hollyone {
+        width: 99vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hollyunderdiv {
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+    }
+
+    .underdivimage {
+        height: 35vh;
+        width: 50vw;
+        border-radius: 5px;
+
+    }
+
+    .underdivheading {
+        position: absolute;
+        left: 52vw;
+        width: 35vw;
+        font-size: 2em;
+    }
+
+    .underdivpara {
+        position: absolute;
+        left: 52vw;
+        top: 5vh;
+        font-weight: bold;
+        overflow: hidden;
+        font-size: 1.5em;
+        height: 26vh;
+        width: 38vw;
+    
+    }
+
+    .underdivtwo {
+        margin-left: 10vw;
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+    }
+
+    .toppp {
+        margin: auto;
+        position: relative;
+        font-size: 3em;
+        width: 40vw;
+        left: 5vw;
+    }
+
+    .underdivimagetwo {
+        height: 35vh;
+        width: 45vw;
+        border-radius: 10px;
+    }
+
+    .underdivheadingtwo {
+        position: absolute;
+        left: 50vw;
+        width: 40vw;
+        font-size: 3em;
+    }
+
+    .underdivparatwo {
+        position: absolute;
+        font-weight: bold;
+        left: 48vw;
+        top: 12vh;
+        height: 25vh;
+        width: 40vw;
+        font-size: 1.5em;
+    }
+
+
+    .topone {
+        width: 99vw;
+    }
+
+    .topss {
+        position: relative;
+        font-size: 3em;
+        width: 40vw;
+        left: 5vw;
+        margin: auto;
+
+    }
+
+    .footerthree {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 40vh;
+        width: 100vw;
+        position: relative;
+        top: 10vh;
+    }
+
+    .advissmentholly {
+      
+        display: none;
+       
+    }
+    .gotonavholly {  
+        flex-direction: column;
+        position: relative;
+        left: 22vw;
+        width: 15vh;
+        font-size: 1.8em;
+        height: 10vh;
+        top: 0vh;
+    }
+
+    .logooneholly {
+        height: 5vh;
+        position: relative;
+        left: -3vw;
+        top: 0vh;
+
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locholly {
+        font-weight: bold;
+        position: absolute;
+        top: 4.5vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephoneholly {
+        height: 4vh;
+        position: relative;
+        right: 39vw;
+        top: 15vh;
+        color: aliceblue;
+    }
+
+    .phoholly {
+        font-weight: bold;
+        position: absolute;
+        top: 15vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonemailholly {
+        height: 4vh;
+        position: relative;
+        right: 46vw;
+        top: 25vh;
+    }
+
+    .emailholly {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        font-size: 1em;
+        top: 25vh;
+        left: 11vw
+    }
+
+    .logosholly {
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+        gap: 2vh;
+        height: 5vh;
+        top: 1vh;
+    }
+
+
+
+
+    /* *****************************************Bollywood****************************************** */
+
+    .bollyheading {
+        font-size: 4em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+    }
+
+    .underdivimagebolly {
+        height: 45vh;
+        width: 50vw;
+    }
+
+    .underdivheadingbolly {
+        position: absolute;
+        left: 54vw;
+        font-size: 2.5em;
+    }
+
+    .underdivparabolly {
+        position: absolute;
+        left: 51vw;
+        top: 12vh;
+        overflow: hidden;
+        font-weight: bold;
+        font-size: 1em;
+        height: 30vh;
+        width: 38vw;
+
+    }
+
+
+    .bollytop {
+        height: 280vh;
+        flex-direction: column;
+        width: 104vw;
+        margin-left: -5vw;
+    }
+
+    .bollybolly {
+        position: relative;
+        top: 375vh;
+    }
+
+    .bollydata {
+        border-radius: 20px;
+        height: 90vh;
+        width: 90vw;
+        position: relative;
+        left: 2vw;
+
+    }
+
+    .underdivtwobolly {
+        position: relative;
+        left: 5vw;
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+
+    }
+
+    .underdivimagetwobolly {
+        height: 35vh;
+        width: 50vw;
+        border-radius: 10px;
+        position: absolute;
+        top: 2vh;
+        left: 0vw;
+
+    }
+
+    .underdivheadingtwobolly {
+        position: absolute;
+        left: 53vw;
+        font-size: 2.5em;
+        width: 35vw;
+    }
+
+    .underdivparatwobolly {
+        position: absolute;
+        font-weight: bold;
+        font-size: 1em;
+        left: 54vw;
+        top: 15vh;
+        height: 20vh;
+        width: 35vw;
+    }
+
+    .headingbolly {
+        text-align: center;
+        font-size: 3.5em;
+    }
+
+    .imagebollytop {
+        height: 60vh;
+        width: 85vw;
+        border-radius: 15px;
+        position: absolute;
+        border-radius: 40px;
+        top: 15vh;
+
+
+    }
+
+    .bollypara {
+        position: absolute;
+        top:75vh;
+        font-weight: bold;
+        font-size: 1.5em;
+        width: 80vw;
+    }
+
+
+    .bollyone {
+        width: 99vw;
+        height:550vh;
+        flex-direction: column;
+    }
+
+    .stories {
+        position: relative;
+        top: 380vh;
+        width: 99vw;
+    }
+
+    .bollytopstories {
+        width: 40vw;
+        font-size: 3em;
+        position: relative;
+        left: 35vw;
+    }
+
+    .bollytoppost {
+        width: 40vw;
+        font-size: 3em;
+        position: relative;
+        left: 35vw;
+    }
+
+    .bollyunderdiv {
+        height:50vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 5vw;
+    }
+
+    .footertwo {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 38vh;
+        width: 100vw;
+        position: relative;
+        top: 760vh;     
+    }
+
+    .Advertisementbolly {     
+        display: none;  
+    }
+
+    .gotonavbolly {
+        flex-direction: column;
+        position: relative;
+        left: 22vw;
+        width: 20vh;
+        font-size: 1.8em;
+        height: 10vh;
+        top: 0vh;
+
+    }
+    .logoonebolly {
+        height: 5vh;
+        position: absolute;
+        left: vw;
+        top: 2vh;
+
+    }
+
+    .location {
+        position: absolute;
+        right: 10;
+        top: 10vh;
+    }
+
+    .locbolly {
+        font-weight: bold;
+        position: absolute;
+        font-size: 1.5em;
+        top: 6vh;
+        left: 14vw;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonebolly {
+        height: 4vh;
+        position: relative;
+        right: 36vw;
+        top: 15vh;
+        color: aliceblue;
+    }
+
+    .phobolly {
+        font-weight: bold;
+        position: absolute;
+        top: 15vh;
+        left: 14vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonemailbolly {
+        height: 5vh;
+        position: absolute;
+        left: 5vw;
+        top: 25vh;
+    }
+
+    .emailbolly {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 26vh;
+        left: 14vw;
+        font-size: 1em;
+    }
+
+    .logosbolly {
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+        height: 5vh;
+        top: 1vh;
+
+    }
+
+
+
+
+    /* ******************************************food******************************************************* */
+
+
+    .foodheading {
+        font-size: 5em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+
+    }
+
+    .foodtop {
+        height: 280vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .fooddata {
+        border-radius: 20px;
+        height: 90vh;
+        width: 90vw;
+    }
+
+    .headingfood {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .imagefoodtop {
+        height: 60vh;
+        width: 85vw;
+        border-radius: 45px;
+        position: absolute;
+        top: 12vh;
+    }
+
+    .foodpara {
+        position: absolute;
+        top: 73vh;
+        font-weight: bold;
+        font-size: 1.5em;
+        width: 80vw;
+    }
+
+    .foodone {
+        flex-direction: column;
+        width: 99vw;
+    }
+
+    .foodunderdiv {
+        height: 45vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 5vw;
+    }
+
+    .underdivimagefood {
+        height: 40vh;
+        width: 50vw;
+        position: absolute;
+        top: 2vh;
+        border-radius: 5px;
+
+    }
+
+    .underdivheadingfood {
+        position: absolute;
+        left: 52vw;
+        font-size: 2.5em;
+    }
+
+    .underdivparafood {
+        position: absolute;
+        left: 52vw;
+        top: 8vh;
+        font-weight: bold;
+        font-size: 1.5em;
+        height: 32vh;
+        width: 38vw;
+
+    }
+
+    .foodtopstories {
+        font-size: 3em;
+        width: 40vw;
+        position: relative;
+        left: 35vw;
+    }
+
+    .foodtoppost {
+        text-align: center;
+        font-size: 3em;
+        width: 40vw;
+        position: relative;
+        left: 35vw;
+    }
+
+    .underdivtwofood {
+        position: relative;
+        left: 5vw;
+        height: 42vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+
+    }
+
+    .underdivimagetwofood {
+        height: 38vh;
+        width: 50vw;
+        border-radius: 10px;
+        position: absolute;
+        top: 2vh;
+    }
+
+    .underdivheadingtwofood {
+        position: absolute;
+        left: 52vw;
+        font-size: 2.5em;
+    }
+
+    .underdivparatwofood {
+        position: absolute;
+        font-weight: bold;
+        left: 52vw;
+        font-size: 1.5em;
+        top: 8vh;
+        height: 15vh;
+        width: 38vw;
+    }
+
+    .footerfood {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .advissmentfood {
+        display: none;
+    }
+
+    .gotonavfood {
+        flex-direction: column;
+        position: relative;
+        left: 20vw;
+        width: 20vh;
+        height: 10vh;
+        font-size:1.5em;
+        top: -12vh;
+    }
+
+    .logoonefood {
+        height: 5vh;
+        position: relative;
+        left: -2vw;
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locfood {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        font-size: 1.5em;
+        left: 11vw;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonefood {
+        height: 4vh;
+        position: relative;
+        right: 35vw;
+        top: 0vh;
+        color: aliceblue;
+    }
+
+    .phofood {
+        font-weight: bold;
+        position: absolute;
+        top: 18vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+    }
+
+    .logoonemailfood {
+        height: 5vh;
+        position: relative;
+        right: 42vw;
+        top: 12vh;
+    }
+
+    .emailfood {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 30vh;
+        left: 11vw
+    }
+
+    .logosfood {
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+        top: -15vh;
+        gap: 2vh;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* ******************************fitness************************************************************ */
+    .fitheading {
+        font-size: 4em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+
+    }
+
+    .fittop {
+        height: 280vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .fitdata {
+        border-radius: 20px;
+        height: 90vh;
+        width: 90vw;
+
+    }
+
+    .headingfit {
+        text-align: center;
+        font-size: 3em;
+
+    }
+
+    .imagefittop {
+        height: 60vh;
+        width: 85vw;
+        border-radius: 15px;
+    }
+
+    .fitpara {
+        position: relative;
+        top: 60vh;
+        width: 80vw;
+        font-size: 1.5em;
+        font-weight: bold;
+
+    }
+
+    .fitone {
+        flex-direction: column;
+        width: 99vw;
+        height: 1400vh;
+    }
+
+    .fitunderdiv {
+        height: 50vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 3vh;
+    }
+
+    .fitdtopstories {
+        text-align: center;
+        font-size: 3em;
+        width: 40vw;
+        position: relative;
+        left: 30vw;
+
+
+    }
+
+    .fitdtoppost {
+        text-align: center;
+        font-size: 3em;
+        width: 40vw;
+        position: relative;
+        left: 30vw;
+
+    }
+
+    .underdivimagefit {
+        height: 45vh;
+        width: 50vw;
+        border-radius: 5px;
+    }
+
+    .underdivheadingfit {
+        position: absolute;
+        left: 52vw;
+        width: 40vw;
+        font-size: 2.5em;
+
+    }
+
+    .underdivparafit {
+        position: absolute;
+        left: 51vw;
+        top: 10vh;
+        font-weight: bold;
+        font-size: 1.5em;
+        height: 32vh;
+        width: 38vw;
+
+    }
+
+    .underdivtwofit {
+        position: relative;
+        left: 4vw;
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+
+    }
+
+    .underdivimagetwofit {
+        height: 35vh;
+        width: 50vw;
+        border-radius: 10px;
+        position: absolute;
+        top: 2vh;
+    }
+
+    .underdivheadingtwofit {
+        position: absolute;
+        left: 52vw;
+        font-size: 2.5em;
+    }
+
+    .underdivparatwofit {
+        position: absolute;
+        font-weight: bold;
+        left: 51vw;
+        top: 8vh;
+        height: 25vh;
+        width: 38vw;
+        font-size: 1.5em;
+    }
+
+    .footerfit {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 40vh;
+        width: 100vw;
+        position: relative;
+        top: 2vh;
+    }
+
+    .advissmentfit {
+        display: none;
+    }
+
+    .gotonavfit {
+        flex-direction: column;
+        position: relative;
+        left: 21vw;
+        width: 20vh;
+        height: 10vh;
+        font-size: 1.8em;
+        top: -15vh;
+    }
+
+    .logoonefit {
+        height: 5vh;
+        position: relative;
+        top: 1vh;
+        left: -2vw;
+    }
+
+    .location {
+        position: absolute;
+        left: 5vw;
+        top: 4vh;
+    }
+
+    .locfit {
+        font-weight: bold;
+        position: absolute;
+        top: 5vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephonefit {
+        height: 4vh;
+        position: relative;
+        right: 35vw;
+        top: 1vh;
+        color: aliceblue;
+    }
+
+    .phofit {
+        font-weight: bold;
+        position: absolute;
+        font-size: 1.5em;
+        top: 18vh;
+        left: 11vw;
+        color: whitesmoke;
+
+    }
+
+    .logoonemailfit {
+        height: 5vh;
+        position: relative;
+        right: 42vw;
+        top: 14vh;
+    }
+
+    .emailfit {
+        font-weight: bold;
+        font-size: 1em;
+        position: aembsolute;
+        color: whitesmoke;
+        top: 32vh;
+        left: 11vw
+    }
+
+    .logosfit {
+        flex-direction: column;
+        position: relative;
+        left: 30vw;
+        /* border: 2pxsolid black; */
+        height: 5vh;
+        top: -14vh;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* *********************************************tecnology********************************** */
+    .techheading {
+        font-size: 4em;
+        width: 10vw;
+        position: relative;
+        left: 2vw;
+        text-decoration: underline;
+    }
+
+    .techtop {
+        height: 310vh;
+        width: 99vw;
+        flex-direction: column;
+    }
+
+    .techdata {
+        border-radius: 20px;
+        height: 102vh;
+        width: 90vw;
+        text-align: center;
+        position: relative;
+
+    }
+
+    .headingtech {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .imagetechtop {
+        height: 60vh;
+        width: 85vw;
+        border-radius: 35px;
+        position: absolute;
+        top: 15vh;
+
+    }
+
+    .techpara {
+        position: absolute;
+        width: 80vw;
+        font-size: 2em;
+        top: 72vh;
+        font-weight: bold;
+        left: 5vh;
+    }
+
+    .techone {
+        flex-direction: column;
+        width: 99vw;
+    }
+
+    .techunderdiv {
+        height: 50vh;
+        width: 90vw;
+        border-bottom: 5px solid bisque;
+        position: relative;
+        left: 4vw;
+    }
+
+    .underdivimagetech {
+        height: 45vh;
+        width: 45vw;
+    }
+
+    .underdivheadingtech {
+        position: absolute;
+        left: 48vw;
+        font-size: 2.5em;
+    }
+
+    .underdivparatech {
+        position: absolute;
+        left: 48vw;
+        top: 6vh;
+        font-weight: bold;
+        font-size: 1.5em;
+        overflow: hidden;
+        height: 32vh;
+        width: 40vw;
+
+    }
+
+    .underdivtwotech {
+        position: relative;
+        left: 4vh;
+        height: 40vh;
+        width: 90vw;
+        border-bottom: 5px solid beige;
+
+    }
+
+    .underdivimagetwotech {
+        height: 35vh;
+        width: 40vw;
+        border-radius: 10px;
+        position: absolute;
+        top: 2vh;
+        left: 0vw;
+    }
+
+    .underdivheadingtwotech {
+        position: absolute;
+        left: 45vw;
+        font-size: 2.5em;
+    }
+
+    .underdivparatwotech {
+        position: absolute;
+        font-weight: bold;
+        font-size: 1.5em;
+        left: 44vw;
+        top: 8vh;
+        height: 20vh;
+        width: 40vw;
+    }
+
+
+    .techtoppost {      
+        position: relative;
+        height: 400vh;
+    }
+
+    .underdivtwo {
+        position: relative;
+        left: -5vw;
+    }
+    .techtopstories {
+        width: 40vw;
+        font-size: 3em;
+        position: relative;
+        left: 30vw;
+    }
+
+    .techtoppostone {
+        width: 40vw;
+        font-size: 3em;
+        position: relative;
+        left: 35vw;
+
+    }
+    .number {
+        display: none;
+    }
+
+    .advissmenttech {     
+        display: none;
+    }
+
+    .footertech {
+        background-color: rgba(0, 0, 0, 0.742);
+        height: 33vh;
+        width: 100vw;
+        position: relative;
+        top: 230vh;
+    }
+
+    .logoonetech {
+        height: 5vh;
+        position: relative;
+        left: -2vw;
+        top: 1vh;
+    }
+
+    .location {
+        position: absolute;
+        left: 3vw;
+        top: 4vh;
+    }
+
+    .loctech {
+        font-weight: bold;
+        position: absolute;
+        top: 6vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonephone {
+        height: 5vh;
+        position: relative;
+        right: 34vw;
+        top: 25vh;
+        color: aliceblue;
+    }
+
+    .photech {
+        font-weight: bold;
+        position: absolute;
+        top: 25.5vh;
+        left: 11vw;
+        font-size: 1.5em;
+        color: whitesmoke;
+
+    }
+
+    .logoonemail {
+        height: 5vh;
+        position: relative;
+        right: 42vw;
+        top: 16vh;
+    }
+
+    .emailtech {
+        font-weight: bold;
+        position: absolute;
+        color: whitesmoke;
+        top: 17vh;
+        left: 11vw;
+        font-size: 1em;
+    }
+
+    .logostech {
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+        height: 5vh;
+        top: 1vh;
+
+    }
+
+    .gotonavtech {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 20vw;
+        width: 20vh;
+        font-size: 1.5em;
+        height: 10vh;
+    }
+
+
+}
